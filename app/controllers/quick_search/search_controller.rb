@@ -174,7 +174,7 @@ module QuickSearch
     end
 
     def search_in_params?
-      params_q_scrubbed && !params_q_scrubbed.blank?
+      params_q_scrubbed
     end
     helper_method :search_in_params?
 
